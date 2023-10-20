@@ -13,9 +13,9 @@ public class OrderSystem : MonoBehaviour
         
     }
 
-    private void randomOrder()
+    public void newOrder()
     {
-        int randnum = Random.Range(0,10);       //до кол-ва рецептов
-
+        int randnum = Random.Range(0,10);       //до кол-ва рецептов сделать
+        Debug.Log("NewOrderGiven");
     }
 }
