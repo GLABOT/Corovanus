@@ -2,14 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using ScriptableObjects.Ingredients;
+using ScriptableObjects.RecipeItems;
 
 public class Order : MonoBehaviour
 {
-//    private List<Ingredients> ingredients;
+    public List<Image> ingridients;    //image ??? ???????????? ???????
+    public RecipeItemInfo recipe;
+
     private void Start()
     {
         for (int i = 0; i < transform.childCount; i++) {
-            //transform.GetChild(i).GetComponent<Image>() = recipe[i];
+            ingridients[i] = transform.GetChild(i).GetComponent<Image>();
         }
     }
 
