@@ -7,6 +7,7 @@ public class OrderSystem : MonoBehaviour
     public static OrderSystem instance;
     public GameObject OrderPrefab;
 
+
     private void Start()
     {
         if (instance == null)

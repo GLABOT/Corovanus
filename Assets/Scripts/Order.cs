@@ -5,9 +5,7 @@ using UnityEngine.UI;
 
 public class Order : MonoBehaviour
 {
-    //передать сюда случайный рецепт
-    private List<Image> ingridients;    //image для ингридиентов рецепта
-
+//    private List<Ingredients> ingredients;
     private void Start()
     {
         for (int i = 0; i < transform.childCount; i++) {
