@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     {
         int randnum = Random.Range(0, 15);
         Debug.Log("kd = " + (10+randnum));  //(10+randnum)
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(10+randnum);
         OrderSystem.instance.newOrder();
         StartCoroutine(WaitForOrder());
     }
