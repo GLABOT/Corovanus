@@ -3,12 +3,13 @@ using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
-    public Text timerText;
+    private Text timerText;
     private float timeLeft;
     private bool isRunning;
 
     public void Start()
     {
+        timerText = GetComponent<Text>();
         StartTimer(60);
     }
 
