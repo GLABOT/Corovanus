@@ -4,26 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c02ca8f8-34de-4f75-ae98-f3d79582ae0b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Ingredients.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Ingredients/IngredientInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Ingredients/IngredientInfo.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ConcreteItems.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ConcreteItems/Hamburger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ConcreteItems/Hamburger.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Recipe.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Recipe.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity-Renderer.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/URP-HighFidelity-Renderer.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+    <list default="true" id="c02ca8f8-34de-4f75-ae98-f3d79582ae0b" name="Changes" comment="add link to recipes database">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/DeepFryer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/DeepFryer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/Grill.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/Grill.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/Sink.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/Sink.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/SlicingTable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/SlicingTable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/KitchenUnit.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/KitchenUnit.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Corovanus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Corovanus/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Ingredients/IngredientInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Ingredients/IngredientInfo.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="PlateExtension" />
+      </map>
+    </option>
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d8c53c35-13de-405c-806c-64359d099be8" />
+        <option name="url" value="https://github.com/GLABOT/Corovanus.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/ProjectSettings/ShaderGraphSettings.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/ScriptableDatabase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Order.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OrderSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/Plate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Plate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMoevement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Timer/Timer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2X1nGStt4IvrQjyoHjLi00IpBUQ" />
@@ -98,6 +128,7 @@
       <updated>1697805360604</updated>
       <workItem from="1697805362485" duration="3863000" />
       <workItem from="1697809274512" duration="438000" />
+      <workItem from="1697822890640" duration="5309000" />
     </task>
     <task id="LOCAL-00001" summary="add scriptableobjects ingredients">
       <option name="closed" value="true" />
@@ -107,11 +138,45 @@
       <option name="project" value="LOCAL" />
       <updated>1697809205796</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add plate base">
+      <option name="closed" value="true" />
+      <created>1697817537941</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697817537941</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add method for getting itemrecipe with ingredients on plate">
+      <option name="closed" value="true" />
+      <created>1697822440275</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697822440275</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add link to recipes database">
+      <option name="closed" value="true" />
+      <created>1697823582984</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697823582984</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnitTestsCoverage.Settings">
+    <option name="coveragePercentColumnWidth" value="150" />
+    <option name="sortOrder" value="DESCENDING" />
+    <option name="sortedColumn" value="1" />
+    <option name="symbolColumnWidth" value="188" />
+    <coverage-tree-state>
+      <expand />
+      <select />
+    </coverage-tree-state>
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
@@ -122,12 +187,17 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Ingredient" />
+                        <option value="KitchenUnits" />
                       </list>
                     </value>
                   </entry>
@@ -142,6 +212,9 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="add scriptableobjects ingredients" />
-    <option name="LAST_COMMIT_MESSAGE" value="add scriptableobjects ingredients" />
+    <MESSAGE value="add plate base" />
+    <MESSAGE value="add method for getting itemrecipe with ingredients on plate" />
+    <MESSAGE value="add link to recipes database" />
+    <option name="LAST_COMMIT_MESSAGE" value="add link to recipes database" />
   </component>
 </project>
