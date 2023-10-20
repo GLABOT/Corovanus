@@ -1,0 +1,150 @@
+Index: Assets/Settings/URP-HighFidelity-Renderer.asset
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>%YAML 1.1\r\n%TAG !u! tag:unity3d.com,2011:\r\n--- !u!114 &-1878332245247344467\r\nMonoBehaviour:\r\n  m_ObjectHideFlags: 0\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 0}\r\n  m_Enabled: 1\r\n  m_EditorHideFlags: 0\r\n  m_Script: {fileID: 11500000, guid: f62c9c65cf3354c93be831c8bc075510, type: 3}\r\n  m_Name: SSAO\r\n  m_EditorClassIdentifier: \r\n  m_Active: 1\r\n  m_Shader: {fileID: 4800000, guid: 0849e84e3d62649e8882e9d6f056a017, type: 3}\r\n  m_Settings:\r\n    Downsample: 0\r\n    AfterOpaque: 0\r\n    Source: 1\r\n    NormalSamples: 1\r\n    Intensity: 0.5\r\n    DirectLightingStrength: 0.25\r\n    Radius: 0.25\r\n    SampleCount: 12\r\n--- !u!114 &11400000\r\nMonoBehaviour:\r\n  m_ObjectHideFlags: 0\r\n  m_CorrespondingSourceObject: {fileID: 0}\r\n  m_PrefabInstance: {fileID: 0}\r\n  m_PrefabAsset: {fileID: 0}\r\n  m_GameObject: {fileID: 0}\r\n  m_Enabled: 1\r\n  m_EditorHideFlags: 0\r\n  m_Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}\r\n  m_Name: URP-HighFidelity-Renderer\r\n  m_EditorClassIdentifier: \r\n  debugShaders:\r\n    debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7,\r\n      type: 3}\r\n  m_RendererFeatures:\r\n  - {fileID: -1878332245247344467}\r\n  m_RendererFeatureMap: adc0de57c6d2eee5\r\n  m_UseNativeRenderPass: 0\r\n  postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}\r\n  shaders:\r\n    blitPS: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}\r\n    copyDepthPS: {fileID: 4800000, guid: d6dae50ee9e1bfa4db75f19f99355220, type: 3}\r\n    screenSpaceShadowPS: {fileID: 0}\r\n    samplingPS: {fileID: 4800000, guid: 04c410c9937594faa893a11dceb85f7e, type: 3}\r\n    stencilDeferredPS: {fileID: 4800000, guid: e9155b26e1bc55942a41e518703fe304, type: 3}\r\n    fallbackErrorPS: {fileID: 4800000, guid: e6e9a19c3678ded42a3bc431ebef7dbd, type: 3}\r\n    materialErrorPS: {fileID: 4800000, guid: 5fd9a8feb75a4b5894c241777f519d4e, type: 3}\r\n    coreBlitPS: {fileID: 4800000, guid: 93446b5c5339d4f00b85c159e1159b7c, type: 3}\r\n    coreBlitColorAndDepthPS: {fileID: 4800000, guid: d104b2fc1ca6445babb8e90b0758136b,\r\n      type: 3}\r\n    cameraMotionVector: {fileID: 4800000, guid: c56b7e0d4c7cb484e959caeeedae9bbf,\r\n      type: 3}\r\n    objectMotionVector: {fileID: 4800000, guid: 7b3ede40266cd49a395def176e1bc486,\r\n      type: 3}\r\n  m_AssetVersion: 1\r\n  m_OpaqueLayerMask:\r\n    serializedVersion: 2\r\n    m_Bits: 4294967295\r\n  m_TransparentLayerMask:\r\n    serializedVersion: 2\r\n    m_Bits: 4294967295\r\n  m_DefaultStencilState:\r\n    overrideStencilState: 0\r\n    stencilReference: 0\r\n    stencilCompareFunction: 8\r\n    passOperation: 2\r\n    failOperation: 0\r\n    zFailOperation: 0\r\n  m_ShadowTransparentReceive: 1\r\n  m_RenderingMode: 0\r\n  m_DepthPrimingMode: 1\r\n  m_AccurateGbufferNormals: 0\r\n  m_ClusteredRendering: 0\r\n  m_TileSize: 32\r\n  m_IntermediateTextureMode: 0\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Settings/URP-HighFidelity-Renderer.asset b/Assets/Settings/URP-HighFidelity-Renderer.asset
+--- a/Assets/Settings/URP-HighFidelity-Renderer.asset	(revision 53317da175cea4d3e3057c0935904db7cc97c85c)
++++ b/Assets/Settings/URP-HighFidelity-Renderer.asset	(date 1697808535416)
+@@ -43,6 +43,7 @@
+   m_RendererFeatureMap: adc0de57c6d2eee5
+   m_UseNativeRenderPass: 0
+   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
++  xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
+   shaders:
+     blitPS: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}
+     copyDepthPS: {fileID: 4800000, guid: d6dae50ee9e1bfa4db75f19f99355220, type: 3}
+@@ -58,7 +59,7 @@
+       type: 3}
+     objectMotionVector: {fileID: 4800000, guid: 7b3ede40266cd49a395def176e1bc486,
+       type: 3}
+-  m_AssetVersion: 1
++  m_AssetVersion: 2
+   m_OpaqueLayerMask:
+     serializedVersion: 2
+     m_Bits: 4294967295
+@@ -75,6 +76,7 @@
+   m_ShadowTransparentReceive: 1
+   m_RenderingMode: 0
+   m_DepthPrimingMode: 1
++  m_CopyDepthMode: 0
+   m_AccurateGbufferNormals: 0
+   m_ClusteredRendering: 0
+   m_TileSize: 32
+Index: Assets/Scripts/ConcreteItems.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/ConcreteItems.meta b/Assets/Scripts/ConcreteItems.meta
+new file mode 100644
+--- /dev/null	(date 1697806759095)
++++ b/Assets/Scripts/ConcreteItems.meta	(date 1697806759095)
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: 0f3603425bd14fc3b2a7aaf44a44e71d
++timeCreated: 1697806759
+\ No newline at end of file
+Index: Assets/Scripts/Recipe.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/Recipe.cs b/Assets/Scripts/Recipe.cs
+new file mode 100644
+--- /dev/null	(date 1697809148866)
++++ b/Assets/Scripts/Recipe.cs	(date 1697809148866)
+@@ -0,0 +1,7 @@
++using System.Collections.Generic;
++using UnityEngine;
++
++public class Recipe : MonoBehaviour // класс в котором хранятся позиции
++{
++    [SerializeField] private List<RecipeItem> _recipePositions;
++}
+\ No newline at end of file
+Index: Assets/ScriptableObjects.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/ScriptableObjects.meta b/Assets/ScriptableObjects.meta
+new file mode 100644
+--- /dev/null	(date 1697806573594)
++++ b/Assets/ScriptableObjects.meta	(date 1697806573594)
+@@ -0,0 +1,8 @@
++fileFormatVersion: 2
++guid: cf566f9fcad97dd45b7bf69edc338295
++folderAsset: yes
++DefaultImporter:
++  externalObjects: {}
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+Index: Assets/Scripts/ConcreteItems/Hamburger.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/ConcreteItems/Hamburger.cs b/Assets/Scripts/ConcreteItems/Hamburger.cs
+new file mode 100644
+--- /dev/null	(date 1697808317731)
++++ b/Assets/Scripts/ConcreteItems/Hamburger.cs	(date 1697808317731)
+@@ -0,0 +1,8 @@
++
++namespace ConcretePositions
++{
++    public class Hamburger : RecipeItem
++    {
++        
++    }
++}
+\ No newline at end of file
+Index: Assets/Scripts/Recipe.cs.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/Recipe.cs.meta b/Assets/Scripts/Recipe.cs.meta
+new file mode 100644
+--- /dev/null	(date 1697806595085)
++++ b/Assets/Scripts/Recipe.cs.meta	(date 1697806595085)
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: 4484c3d07d1e4c629a7bbad2309e9395
++timeCreated: 1697806595
+\ No newline at end of file
+Index: Assets/ScriptableObjects/Ingredients.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/ScriptableObjects/Ingredients.meta b/Assets/ScriptableObjects/Ingredients.meta
+new file mode 100644
+--- /dev/null	(date 1697806573602)
++++ b/Assets/ScriptableObjects/Ingredients.meta	(date 1697806573602)
+@@ -0,0 +1,8 @@
++fileFormatVersion: 2
++guid: e06279693af943b4cb82dfbf9675aa66
++folderAsset: yes
++DefaultImporter:
++  externalObjects: {}
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+Index: Assets/Scripts/ConcreteItems/Hamburger.cs.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/ConcreteItems/Hamburger.cs.meta b/Assets/Scripts/ConcreteItems/Hamburger.cs.meta
+new file mode 100644
+--- /dev/null	(date 1697806770659)
++++ b/Assets/Scripts/ConcreteItems/Hamburger.cs.meta	(date 1697806770659)
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: 6872d821221f48d0800fadc1bc2baf66
++timeCreated: 1697806770
+\ No newline at end of file

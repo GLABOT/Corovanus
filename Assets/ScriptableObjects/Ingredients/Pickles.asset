@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e21a504800e544a6916a72779b11aabd, type: 3}
-  m_Name: BeefPattyRaw
+  m_Name: Pickles
   m_EditorClassIdentifier: 
-  _ingredientName: BeefPattyRaw
+  _ingredientName: Pickles
   _prefab: {fileID: 0}
-  _grilledIngredient: {fileID: 11400000, guid: d644fdfc365a5a14ea1ff5a5056fac71, type: 2}
-  _slicedIngredient: {fileID: 0}
+  _grilledIngredient: {fileID: 0}
+  _slicedIngredient: {fileID: 11400000, guid: b5d78bae2526d2d4fa3fde62ed5f339e, type: 2}
   _deepFryedIngredient: {fileID: 0}
   _washedIngredient: {fileID: 0}

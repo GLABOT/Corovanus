@@ -1,0 +1,36 @@
+Index: Assets/ScriptableObjects.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/ScriptableObjects.meta b/Assets/ScriptableObjects.meta
+new file mode 100644
+--- /dev/null	(date 1697802321497)
++++ b/Assets/ScriptableObjects.meta	(date 1697802321497)
+@@ -0,0 +1,8 @@
++fileFormatVersion: 2
++guid: cf566f9fcad97dd45b7bf69edc338295
++folderAsset: yes
++DefaultImporter:
++  externalObjects: {}
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 
+Index: Assets/ScriptableObjects/Ingredients.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/ScriptableObjects/Ingredients.meta b/Assets/ScriptableObjects/Ingredients.meta
+new file mode 100644
+--- /dev/null	(date 1697802341712)
++++ b/Assets/ScriptableObjects/Ingredients.meta	(date 1697802341712)
+@@ -0,0 +1,8 @@
++fileFormatVersion: 2
++guid: e06279693af943b4cb82dfbf9675aa66
++folderAsset: yes
++DefaultImporter:
++  externalObjects: {}
++  userData: 
++  assetBundleName: 
++  assetBundleVariant: 

@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e21a504800e544a6916a72779b11aabd, type: 3}
-  m_Name: BeefPattyRaw
+  m_Name: Bacon
   m_EditorClassIdentifier: 
-  _ingredientName: BeefPattyRaw
+  _ingredientName: Bacon
   _prefab: {fileID: 0}
-  _grilledIngredient: {fileID: 11400000, guid: d644fdfc365a5a14ea1ff5a5056fac71, type: 2}
+  _grilledIngredient: {fileID: 11400000, guid: e05925078d455f147a31906fe486fa8d, type: 2}
   _slicedIngredient: {fileID: 0}
   _deepFryedIngredient: {fileID: 0}
-  _washedIngredient: {fileID: 0}
+  _washedIngredient: {fileID: 11400000}
