@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 63bc3d2367c540929d3a06094ca0cb32, type: 3}
-  m_Name: FrenchFries
+  m_Name: RusticPotatoes
   m_EditorClassIdentifier: 
   _ingredients:
-  - {fileID: 11400000, guid: 26b428450f19a42438d2b4a6ba2998f5, type: 2}
+  - {fileID: 11400000, guid: dd368dd9df0eb8e46b9ff52792b6bba2, type: 2}

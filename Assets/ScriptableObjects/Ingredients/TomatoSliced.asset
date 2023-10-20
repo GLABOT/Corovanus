@@ -9,8 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 63bc3d2367c540929d3a06094ca0cb32, type: 3}
-  m_Name: FrenchFries
+  m_Script: {fileID: 11500000, guid: e21a504800e544a6916a72779b11aabd, type: 3}
+  m_Name: TomatoSliced
   m_EditorClassIdentifier: 
-  _ingredients:
-  - {fileID: 11400000, guid: 26b428450f19a42438d2b4a6ba2998f5, type: 2}
+  _ingredientName: TomatoSliced
+  _prefab: {fileID: 0}
+  _grilledIngredient: {fileID: 0}
+  _slicedIngredient: {fileID: 0}
+  _deepFriedIngredient: {fileID: 0}
+  _washedIngredient: {fileID: 0}
