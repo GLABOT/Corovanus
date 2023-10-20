@@ -14,7 +14,7 @@ public class Plate : MonoBehaviour
     private void Awake()
     {
         _ingredients = new List<IngredientInfo>();
-        // _allRecipesData = Recipes._AllRecipesInfos;
+        _allRecipesData = ScriptableDatabase.instance.recipes;
     }
 
     private void AddIngredient(IngredientInfo ingredient)
@@ -28,14 +28,14 @@ public class Plate : MonoBehaviour
         _ingredients.Clear();
     }
 
-    // private RecipeItemInfo CreateItem() // метод который возвращает рецепт если можно создать еду из 
-    // {                                   // лежащих на тарелке ингредиентов, иначе возвращает null 
-    //     for (int i = 0; i < _allRecipesData.Count; i++)
-    //     {
-    //         if (_ingredients.Count != _allRecipesData[i].ingredients.Count) continue;
-    //         if (_ingredients.All(_allRecipesData[i].ingredients.Contains))
-    //             return _allRecipesData[i];
-    //     }
-    //     return null;
-    // }
+    private RecipeItemInfo CreateItem() // метод который возвращает рецепт если можно создать еду из 
+    {                                   // лежащих на тарелке ингредиентов, иначе возвращает null 
+        for (int i = 0; i < _allRecipesData.Count; i++)
+        {
+            if (_ingredients.Count != _allRecipesData[i].ingredients.Count) continue;
+            if (_ingredients.All(_allRecipesData[i].ingredients.Contains))
+                return _allRecipesData[i];
+        }
+        return null;
+    }
 }
