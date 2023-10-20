@@ -13,7 +13,7 @@ namespace ScriptableObjects.Ingredients
         [SerializeField] private IngredientInfo _deepFriedIngredient;
         [SerializeField] private IngredientInfo _washedIngredient;
         public string ingredientName => _ingredientName;
-        public GameObject prefab => prefab;
+        public GameObject prefab => _prefab;
         public IngredientInfo grilledIngredient => _grilledIngredient;
         public IngredientInfo slicedIngredient => _slicedIngredient;
         public IngredientInfo deepFriedIngredient => _deepFriedIngredient;
