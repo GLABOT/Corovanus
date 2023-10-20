@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - PickUp
+  - Table
+  - YashkiTomato
+  - Podnos
+  - Tomato
+  - Box
   layers:
   - Default
   - TransparentFX
