@@ -16,7 +16,7 @@ namespace ScriptableObjects.Ingredients
         public string prefab => prefab;
         public IngredientInfo grilledIngredient => _grilledIngredient;
         public IngredientInfo slicedIngredient => _slicedIngredient;
-        public IngredientInfo DeepFriedIngredient => _deepFriedIngredient;
+        public IngredientInfo deepFriedIngredient => _deepFriedIngredient;
         public IngredientInfo washedIngredient => _washedIngredient;
     }
 }
