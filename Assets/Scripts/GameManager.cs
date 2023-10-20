@@ -5,7 +5,6 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    private float coolDown;
 
     private void Start()
     {
@@ -18,8 +17,8 @@ public class GameManager : MonoBehaviour
     IEnumerator WaitForOrder()
     {
         int randnum = Random.Range(0, 15);
-        Debug.Log("kd = " + (15+randnum));
-        yield return new WaitForSeconds(10 + randnum);
+        Debug.Log("kd = " + (10+randnum));  //(10+randnum)
+        yield return new WaitForSeconds(2);
         OrderSystem.instance.newOrder();
         StartCoroutine(WaitForOrder());
     }
