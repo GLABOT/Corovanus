@@ -7,8 +7,12 @@ public class PlayerMoevement : MonoBehaviour
 {
     public float speed;
     private Vector2 move;
+    public GameObject targetPickUp;
+    public bool isGrabbed = false;
+    public BoxClass boxClass;
 
-    
+
+
 
     void Update()
     {
@@ -28,5 +32,23 @@ public class PlayerMoevement : MonoBehaviour
     {
         move = context.ReadValue<Vector2>();
     }
+
+    public void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Box") && isGrabbed == false)
+        {
+            boxClass = collision.gameObject.GetComponent<BoxClass>();
+            Instantiate(boxClass.pickUpObject, targetPickUp.transform);
+            isGrabbed = true;
+        }
+
+        if (collision.gameObject.CompareTag("Podnos") && isGrabbed == true)
+        {
+            string nameOfObject = boxClass.pickUpObject.name.ToString();
+            Destroy(GameObject.Find(string.Concat(nameOfObject,"(Clone)")));
+            isGrabbed = false;
+        }
+    }
+
 
 }
