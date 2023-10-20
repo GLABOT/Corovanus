@@ -1,16 +1,20 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using ScriptableObjects.Ingredients;
+using ScriptableObjects.RecipeItems;
 using UnityEngine;
 
 public class Plate : MonoBehaviour
 {
     [SerializeField] private int _maxIngredients;
     private List<IngredientInfo> _ingredients;
+    private List<RecipeItemInfo> _allRecipesData; 
     
     private void Awake()
     {
         _ingredients = new List<IngredientInfo>();
+        // _allRecipesData = Recipes._AllRecipesInfos;
     }
 
     private void AddIngredient(IngredientInfo ingredient)
@@ -18,11 +22,20 @@ public class Plate : MonoBehaviour
         if (_ingredients.Count<_maxIngredients)
             _ingredients.Add(ingredient);
     }
-
-    private IngredientInfo TakeIngredient()
+    
+    private void CleanPlate()
     {
-        var lastIngredient = _ingredients[^1];
-        _ingredients.RemoveAt(_ingredients.Count-1);
-        return lastIngredient;
+        _ingredients.Clear();
     }
+
+    // private RecipeItemInfo CreateItem() // метод который возвращает рецепт если можно создать еду из 
+    // {                                   // лежащих на тарелке ингредиентов, иначе возвращает null 
+    //     for (int i = 0; i < _allRecipesData.Count; i++)
+    //     {
+    //         if (_ingredients.Count != _allRecipesData[i].ingredients.Count) continue;
+    //         if (_ingredients.All(_allRecipesData[i].ingredients.Contains))
+    //             return _allRecipesData[i];
+    //     }
+    //     return null;
+    // }
 }
