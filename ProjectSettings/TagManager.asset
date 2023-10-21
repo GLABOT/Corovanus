@@ -11,6 +11,7 @@ TagManager:
   - Tomato
   - Box
   - KitchenUnit
+  - Trash
   layers:
   - Default
   - TransparentFX

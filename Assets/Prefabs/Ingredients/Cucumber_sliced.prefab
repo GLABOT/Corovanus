@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5571820939400518070}
   - component: {fileID: 1354609934375900275}
   - component: {fileID: 2577003885445371564}
+  - component: {fileID: 6908519774988186132}
   m_Layer: 0
   m_Name: Cucumber_sliced
   m_TagString: Untagged
@@ -98,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredient: {fileID: 11400000, guid: b5d78bae2526d2d4fa3fde62ed5f339e, type: 2}
+  Prefab: {fileID: 0}
 --- !u!54 &2577003885445371564
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -114,3 +116,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &6908519774988186132
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895348662398842468}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.42964554, y: 0.041254424, z: 0.40632197}
+  m_Center: {x: -0.017044164, y: 0, z: 0.0016147196}

@@ -83,33 +83,33 @@ public class PlayerMovement : MonoBehaviour
         _objectInHand = Instantiate(cookedIngredient, targetPickUp.transform);
     }
     
-    private void OnCollisionStay(Collision collision)
-    {
-        if (collision.gameObject.CompareTag("Box") && !isHolding && Input.GetKey(KeyCode.E))
-        {
-            var boxClass = collision.gameObject.GetComponent<BoxClass>();
-            _objectInHand = Instantiate(boxClass.pickUpObject, targetPickUp.transform);
-            isHoldingIngredient = true;
-        }
-        //adding objectInHand to plate
-        if (collision.gameObject.CompareTag("Podnos") && isHolding && Input.GetKey(KeyCode.E))
-        {
-            var plate = collision.gameObject.GetComponent<Plate>();
-            plate.AddIngredient(_objectInHand.GetComponent<Ingredient>().ingredient);
-            Destroy(_objectInHand);
-            isHoldingIngredient = false;
-        }
-        //cooking something on something
-        if (collision.gameObject.CompareTag("KitchenUnit") && isHoldingIngredient && Input.GetKey(KeyCode.E))
-        {
-            var kitchenUnit = collision.gameObject.GetComponent<KitchenUnit>();
-            kitchenUnit.Cook(_objectInHand.GetComponent<Ingredient>().ingredient);
-            Destroy(_objectInHand);
-            StartCoroutine(Cook(kitchenUnit.timeToCook, kitchenUnit.CookedIngredient));
-            if (kitchenUnit.GetType() == typeof(Sink))
-                isSinking = true;
-            if (kitchenUnit.GetType() == typeof(SlicingTable))
-                isChopping = true;
-        }
-    }
+    //private void OnCollisionStay(Collision collision)
+    //{
+    //    if (collision.gameObject.CompareTag("Box") && !isHolding && Input.GetKey(KeyCode.E))
+    //    {
+    //        var boxClass = collision.gameObject.GetComponent<BoxClass>();
+    //        _objectInHand = Instantiate(boxClass.pickUpObject, targetPickUp.transform);
+    //        isHoldingIngredient = true;
+    //    }
+    //    //adding objectInHand to plate
+    //    if (collision.gameObject.CompareTag("Podnos") && isHolding && Input.GetKey(KeyCode.E))
+    //    {
+    //        var plate = collision.gameObject.GetComponent<Plate>();
+    //        plate.AddIngredient(_objectInHand.GetComponent<Ingredient>().ingredient);
+    //        Destroy(_objectInHand);
+    //        isHoldingIngredient = false;
+    //    }
+    //    //cooking something on something
+    //    if (collision.gameObject.CompareTag("KitchenUnit") && isHoldingIngredient && Input.GetKey(KeyCode.E))
+    //    {
+    //        var kitchenUnit = collision.gameObject.GetComponent<KitchenUnit>();
+    //        kitchenUnit.Cook(_objectInHand.GetComponent<Ingredient>().ingredient);
+    //        Destroy(_objectInHand);
+    //        StartCoroutine(Cook(kitchenUnit.timeToCook, kitchenUnit.CookedIngredient));
+    //        if (kitchenUnit.GetType() == typeof(Sink))
+    //            isSinking = true;
+    //        if (kitchenUnit.GetType() == typeof(SlicingTable))
+    //            isChopping = true;
+    //    }
+    //}
 }

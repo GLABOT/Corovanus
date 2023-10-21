@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 859326674751529916}
   - component: {fileID: 6182476874266918923}
   - component: {fileID: -5875301262823767110}
+  - component: {fileID: -3352950411099155439}
   m_Layer: 0
   m_Name: Onion_sliced
   m_TagString: Untagged
@@ -98,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredient: {fileID: 11400000, guid: 33375d646f9f7d648a87808a9128d44b, type: 2}
+  Prefab: {fileID: 0}
 --- !u!54 &-5875301262823767110
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -114,3 +116,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &-3352950411099155439
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035063516674533204}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4116876, y: 0.07053275, z: 0.38508326}
+  m_Center: {x: 0.013618521, y: 0.019493476, z: 0}

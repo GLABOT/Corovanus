@@ -15,17 +15,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 332de5be0a26d744898fb2fd47ccb5f2,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 3.5541751
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 332de5be0a26d744898fb2fd47ccb5f2,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.0000009536743
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 332de5be0a26d744898fb2fd47ccb5f2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -4.331961
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 332de5be0a26d744898fb2fd47ccb5f2,
         type: 3}
@@ -72,5 +72,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Box_Bread Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 332de5be0a26d744898fb2fd47ccb5f2,
+        type: 3}
+      propertyPath: m_TagString
+      value: Box
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 332de5be0a26d744898fb2fd47ccb5f2, type: 3}
+--- !u!1 &6357180433135809450 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 332de5be0a26d744898fb2fd47ccb5f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 6122736318508338939}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &14996532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6357180433135809450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfdee4a208b84296a3e071cea4ed2665, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ingredient: {fileID: 11400000, guid: e14a5022d338c1b4bb882de048cebe71, type: 2}

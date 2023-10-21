@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4666488838204401578}
   - component: {fileID: 1940173889623890769}
   - component: {fileID: 1155378006813405686}
+  - component: {fileID: -5372678466706348171}
   m_Layer: 0
   m_Name: Cheeze
   m_TagString: Untagged
@@ -98,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredient: {fileID: 11400000, guid: 3cea3d3cb0bd34b48b60f61893a2b715, type: 2}
+  Prefab: {fileID: 0}
 --- !u!54 &1155378006813405686
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -114,3 +116,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &-5372678466706348171
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4951263615589213014}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 0.039403416, z: 0.5}
+  m_Center: {x: 0, y: -0.0017538657, z: 0}

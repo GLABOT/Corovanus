@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2158115768484945259}
   - component: {fileID: 4071760792198865684}
   - component: {fileID: 5944986994818594864}
+  - component: {fileID: 7968508465958790703}
   m_Layer: 0
   m_Name: FrenchFries
   m_TagString: Untagged
@@ -98,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredient: {fileID: 11400000, guid: 26b428450f19a42438d2b4a6ba2998f5, type: 2}
+  Prefab: {fileID: 0}
 --- !u!54 &5944986994818594864
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -114,3 +116,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &7968508465958790703
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2564256895113444920}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.396177, y: 0.1501618, z: 0.60390216}
+  m_Center: {x: 0.03151577, y: 0.06986299, z: -0.014840871}

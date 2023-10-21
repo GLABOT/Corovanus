@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3296860328673845634}
   - component: {fileID: 2605731448587343477}
   - component: {fileID: -454928356032979931}
+  - component: {fileID: 5379883340606684121}
   m_Layer: 0
   m_Name: Bacon
   m_TagString: Untagged
@@ -98,6 +99,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredient: {fileID: 11400000, guid: 3e2207bcd2b5caf4ba31d882a938e93f, type: 2}
+  Prefab: {fileID: 0}
 --- !u!54 &-454928356032979931
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -114,3 +116,16 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5379883340606684121
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6547610261639579486}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.36901236, y: 0.025063403, z: 0.4279902}
+  m_Center: {x: -0.0002529323, y: -0.0010757819, z: 0.037985444}
