@@ -12,6 +12,7 @@ TagManager:
   - Box
   - KitchenUnit
   - Trash
+  - PodnosTable
   layers:
   - Default
   - TransparentFX
