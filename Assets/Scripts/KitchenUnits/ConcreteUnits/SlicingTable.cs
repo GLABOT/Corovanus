@@ -18,7 +18,6 @@ namespace KitchenUnits.ConcreteUnits
             var cookingIngredient = Instantiate(ingredient.prefab, _ingredientInstantiateTransform);
             yield return new WaitForSeconds(timeToCook);
             Destroy(cookingIngredient);
-            
         }
     }
-}
+}   
