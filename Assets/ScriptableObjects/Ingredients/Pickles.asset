@@ -16,5 +16,6 @@ MonoBehaviour:
   _prefab: {fileID: 0}
   _grilledIngredient: {fileID: 0}
   _slicedIngredient: {fileID: 11400000, guid: b5d78bae2526d2d4fa3fde62ed5f339e, type: 2}
-  _deepFryedIngredient: {fileID: 0}
+  _deepFriedIngredient: {fileID: 0}
   _washedIngredient: {fileID: 0}
+  _priority: 4

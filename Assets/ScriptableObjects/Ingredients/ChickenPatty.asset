@@ -14,3 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _ingredientName: ChickPatty
   _prefab: {fileID: 0}
+  _grilledIngredient: {fileID: 0}
+  _slicedIngredient: {fileID: 0}
+  _deepFriedIngredient: {fileID: 0}
+  _washedIngredient: {fileID: 0}
+  _priority: 1
