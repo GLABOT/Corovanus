@@ -18,3 +18,4 @@ MonoBehaviour:
   _slicedIngredient: {fileID: 0}
   _deepFriedIngredient: {fileID: 0}
   _washedIngredient: {fileID: 11400000, guid: d6a3c1256f182414dbf02eda70049200, type: 2}
+  _priority: 5

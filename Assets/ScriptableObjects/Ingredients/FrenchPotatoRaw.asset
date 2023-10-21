@@ -19,3 +19,4 @@ MonoBehaviour:
   _deepFriedIngredient: {fileID: 11400000, guid: 26b428450f19a42438d2b4a6ba2998f5,
     type: 2}
   _washedIngredient: {fileID: 0}
+  _priority: 10
