@@ -17,6 +17,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 3ddb9faf61cc3ca4bbcc8aa74cb49993,
         type: 2}
+    - target: {fileID: 4844115750588256895, guid: eff9ba526c0e0fb46b7b3a1e7ad68698,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 355ec31cbfc25eb41b95ec80592c1a1f, type: 2}
     - target: {fileID: 6013129313919953168, guid: eff9ba526c0e0fb46b7b3a1e7ad68698,
         type: 3}
       propertyPath: m_RootOrder
@@ -90,7 +95,7 @@ PrefabInstance:
     - target: {fileID: 6357180433135809450, guid: eff9ba526c0e0fb46b7b3a1e7ad68698,
         type: 3}
       propertyPath: m_Name
-      value: Box_BeefPattyRaw
+      value: Box_BeefPattyRaw Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eff9ba526c0e0fb46b7b3a1e7ad68698, type: 3}

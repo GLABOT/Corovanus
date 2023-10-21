@@ -17,6 +17,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: fed59dc077d8b8d41bfaee8c8a3c97b1,
         type: 2}
+    - target: {fileID: 4844115750588256895, guid: eff9ba526c0e0fb46b7b3a1e7ad68698,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f02396ac7550a5344b654d1267da943f, type: 2}
     - target: {fileID: 6013129313919953168, guid: eff9ba526c0e0fb46b7b3a1e7ad68698,
         type: 3}
       propertyPath: m_RootOrder
@@ -90,7 +95,7 @@ PrefabInstance:
     - target: {fileID: 6357180433135809450, guid: eff9ba526c0e0fb46b7b3a1e7ad68698,
         type: 3}
       propertyPath: m_Name
-      value: Box_Onion
+      value: Box_Onion Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eff9ba526c0e0fb46b7b3a1e7ad68698, type: 3}

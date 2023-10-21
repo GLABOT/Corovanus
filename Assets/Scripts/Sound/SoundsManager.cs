@@ -5,6 +5,7 @@ using UnityEngine.Audio;
 public class SoundsManager : MonoBehaviour
 {
     public static SoundsManager instance = null;
+    public SoundRandomizer snr;
 
     public Sound[] sounds;
 
@@ -32,6 +33,7 @@ public class SoundsManager : MonoBehaviour
             sound.audioSource.pitch = sound.pitch;
             sound.audioSource.loop = sound.loop;
         }
+        snr.PlayCrystallSounds();
     }
 
     private void Start() => PlaySound(mainTheme, true);
