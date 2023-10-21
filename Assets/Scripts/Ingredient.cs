@@ -17,6 +17,7 @@ public class Ingredient : MonoBehaviour
         {
             GameObject obj = Instantiate(Prefab, transform);
             Hand.instance.PutInHand(obj);
+            PlayerMovement.instance.isHolding = true;
         }
     }
 }

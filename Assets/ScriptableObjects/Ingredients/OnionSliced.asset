@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: OnionSliced
   m_EditorClassIdentifier: 
   _ingredientName: OnionSliced
-  _prefab: {fileID: 0}
+  _prefab: {fileID: 1035063516674533204, guid: caee8d01a62ab944390e4101735912af, type: 3}
   _grilledIngredient: {fileID: 0}
   _slicedIngredient: {fileID: 0}
   _deepFriedIngredient: {fileID: 0}
   _washedIngredient: {fileID: 0}
   _priority: 3
+  sprite: {fileID: 0}

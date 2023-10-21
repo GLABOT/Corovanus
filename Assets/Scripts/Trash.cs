@@ -12,5 +12,6 @@ public class Trash : MonoBehaviour
                 return;
 
             Hand.instance.ReleaseObject();
+            PlayerMovement.instance.isHolding = false;
     }
 }

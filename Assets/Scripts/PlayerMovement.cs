@@ -6,6 +6,7 @@ using UnityEngine.Serialization;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public static PlayerMovement instance;
     [SerializeField] private float _speed;
     [SerializeField] private GameObject _knife;
     [SerializeField] private GameObject _tray;
@@ -25,6 +26,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
+        if (instance == null)
+            instance = this;
+
         _rigidbody = GetComponent<Rigidbody>();
         _knife.GetComponent<MeshRenderer>().enabled = false;
         _plate.GetComponent<MeshRenderer>().enabled = false;
@@ -85,35 +89,35 @@ public class PlayerMovement : MonoBehaviour
         isCooking = false;
         isWashing = false;
         isChopping = false;
-        _objectInHand = Instantiate(cookedIngredient, _holdingTransform, true);
+        Hand.instance.PutInHand(cookedIngredient);
         isHolding = true;
     }
 
     private void OnCollisionStay(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Box") && !isHolding && Input.GetKey(KeyCode.E))
-        {
-            var boxClass = collision.gameObject.GetComponent<BoxClass>();
-            _objectInHand = Instantiate(boxClass.pickUpObject, _holdingTransform, true);
+        //if (collision.gameObject.CompareTag("Box") && !isHolding && Input.GetKey(KeyCode.E))
+        //{
+        //    var boxClass = collision.gameObject.GetComponent<BoxClass>();
+        //    _objectInHand = Instantiate(boxClass.pickUpObject, _holdingTransform, true);
 
-            isHoldingIngredient = true;
-        }
+        //    isHoldingIngredient = true;
+        //}
         //adding objectInHand to plate
-        if (collision.gameObject.CompareTag("Podnos") && isHolding && Input.GetKey(KeyCode.E))
+        if (collision.gameObject.CompareTag("Podnos") && Hand.instance.inHand != null && Input.GetKey(KeyCode.E))
         {
             var plate = collision.gameObject.GetComponent<Plate>();
-            plate.AddIngredient(_objectInHand.GetComponent<Ingredient>().ingredient);
-            Destroy(_objectInHand);
+            plate.AddIngredient(Hand.instance.inHand.GetComponent<Ingredient>().ingredient);
+            Destroy(Hand.instance.inHand);
 
-            isHoldingIngredient = false;
+            Hand.instance.ReleaseObject();
         }
         //cooking something on something
-        if (collision.gameObject.CompareTag("KitchenUnit") && isHoldingIngredient && Input.GetKey(KeyCode.E))
+        if (collision.gameObject.CompareTag("KitchenUnit") && Hand.instance.inHand != null && Input.GetKey(KeyCode.E))
         {
-            isHoldingIngredient = false;
+           
             var kitchenUnit = collision.gameObject.GetComponent<KitchenUnit>();
-            kitchenUnit.Cook(_objectInHand.GetComponent<Ingredient>().ingredient);
-            Destroy(_objectInHand);
+            kitchenUnit.Cook(Hand.instance.inHand.GetComponent<Ingredient>().ingredient);
+            Hand.instance.ReleaseObject();
             StartCoroutine(Cook(kitchenUnit.timeToCook, kitchenUnit.CookedIngredient));
 
             if (kitchenUnit.GetType() == typeof(Sink))

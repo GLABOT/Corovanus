@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 24562189016127841}
   - component: {fileID: 859326674751529916}
   - component: {fileID: 6182476874266918923}
-  - component: {fileID: -5875301262823767110}
   - component: {fileID: -3352950411099155439}
   m_Layer: 0
   m_Name: Onion_sliced
@@ -28,8 +27,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1035063516674533204}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.55679584, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -100,22 +99,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ingredient: {fileID: 11400000, guid: 33375d646f9f7d648a87808a9128d44b, type: 2}
   Prefab: {fileID: 0}
---- !u!54 &-5875301262823767110
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1035063516674533204}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &-3352950411099155439
 BoxCollider:
   m_ObjectHideFlags: 0

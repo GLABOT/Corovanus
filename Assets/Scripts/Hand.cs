@@ -18,13 +18,13 @@ public class Hand : MonoBehaviour
 
     public void PutInHand(GameObject ingridient)
     {
+        GameObject ingridientInstance = Instantiate(ingridient);
         Debug.Log(ingridient + " puted in hand!");
-        ingridient.transform.SetParent(transform); // Сделать переданный объект дочерним объектом левой руки
-        ingridient.transform.localPosition = Vector3.zero; // Установить локальную позицию объекта в (0, 0, 0)
-        ingridient.transform.localRotation = Quaternion.identity; // Установить локальную ротацию объекта в начальное положение
-        inHand = ingridient;
-        //rb = ingridient.GetComponent<Rigidbody>();
-        //rb.isKinematic = true;
+        ingridientInstance.transform.SetParent(transform); // Сделать переданный объект дочерним объектом левой руки
+        ingridientInstance.transform.localPosition = Vector3.zero; // Установить локальную позицию объекта в (0, 0, 0)
+        ingridientInstance.transform.localRotation = Quaternion.identity; // Установить локальную ротацию объекта в начальное положение
+        inHand = ingridientInstance;
+
         
     }
 
