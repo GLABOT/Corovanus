@@ -30,5 +30,13 @@ public class Order : MonoBehaviour
             images[i].gameObject.SetActive(false);
     }
 
+    private void setIngridients()
+    {
+        for (int i = 0; i < images.Length; i++)
+        {
+            images[i].sprite = recipe.ingredients[i].sprite;
+        }
+    }
+
 
 }
