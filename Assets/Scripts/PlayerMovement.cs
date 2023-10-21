@@ -75,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
             var kitchenUnit = collision.gameObject.GetComponent<KitchenUnit>();
             kitchenUnit.Cook(_objectInHand.GetComponent<Ingredient>().ingredient);
             Destroy(_objectInHand);
-            StartCoroutine(Cook(kitchenUnit.timeToCook, kitchenUnit.cookedIngredient));
+            StartCoroutine(Cook(kitchenUnit.timeToCook, kitchenUnit.CookedIngredient));
         }
     }
 }

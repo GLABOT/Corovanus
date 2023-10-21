@@ -9,7 +9,7 @@ namespace KitchenUnits.ConcreteUnits
     {
         public override void Cook(IngredientInfo ingredient)
         {
-            cookedIngredient = ingredient.slicedIngredient.prefab;
+            CookedIngredient = ingredient.slicedIngredient.prefab;
             StartCoroutine(WaitForSlice(ingredient));
         }
 

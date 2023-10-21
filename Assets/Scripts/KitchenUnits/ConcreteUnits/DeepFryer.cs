@@ -8,7 +8,7 @@ namespace KitchenUnits.ConcreteUnits
     {
         public override void Cook(IngredientInfo ingredient)
         {
-            cookedIngredient = ingredient.deepFriedIngredient.prefab;
+            CookedIngredient = ingredient.deepFriedIngredient.prefab;
             StartCoroutine(WaitForFry(ingredient));
         }
 
