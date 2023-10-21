@@ -1,6 +1,7 @@
 using System.Collections;
 using KitchenUnits;
 using KitchenUnits.ConcreteUnits;
+using ScriptableObjects.Ingredients;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -20,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isSaucing; // TODO: описать изменение надо
     public bool isHoldingPlate;
     public bool isHoldingIngredient;
+    private Plate _plateTwo;
     private Vector3 _movement;
     private GameObject _objectInHand;
     private Rigidbody _rigidbody;
@@ -103,14 +105,14 @@ public class PlayerMovement : MonoBehaviour
         //    isHoldingIngredient = true;
         //}
         //adding objectInHand to plate
-        if (collision.gameObject.CompareTag("Podnos") && Hand.instance.inHand != null && Input.GetKey(KeyCode.E))
-        {
-            var plate = collision.gameObject.GetComponent<Plate>();
-            plate.AddIngredient(Hand.instance.inHand.GetComponent<Ingredient>().ingredient);
-            Destroy(Hand.instance.inHand);
-
-            Hand.instance.ReleaseObject();
-        }
+        // if (collision.gameObject.CompareTag("Podnos") && Hand.instance.inHand != null && Input.GetKey(KeyCode.E))
+        // {
+        //     var plate = collision.gameObject.GetComponent<Plate>();
+        //     plate.AddIngredient(Hand.instance.inHand.GetComponent<Ingredient>().ingredient);
+        //     Destroy(Hand.instance.inHand);
+        //
+        //     Hand.instance.ReleaseObject();
+        // }
         //cooking something on something
         if (collision.gameObject.CompareTag("KitchenUnit") && Hand.instance.inHand != null && Input.GetKey(KeyCode.E))
         {
@@ -123,7 +125,6 @@ public class PlayerMovement : MonoBehaviour
             if (kitchenUnit.GetType() == typeof(Sink))
             {
                 isWashing = true;
-                
             }
 
             if (kitchenUnit.GetType() == typeof(SlicingTable))
@@ -131,6 +132,17 @@ public class PlayerMovement : MonoBehaviour
                 isChopping = true;
                 _knife.GetComponent<MeshRenderer>().enabled = true;
             }
+            
+        }
+
+        if (collision.gameObject.CompareTag("Table") && Hand.instance.inHand != null && Input.GetKey(KeyCode.E))
+        {
+            Hand.instance.inHand = collision.gameObject.GetComponent<Table>()._itemOnTable;
+        }
+
+        if (collision.gameObject.CompareTag("PodnosTable") && Hand.instance.inHand != null && Input.GetKey(KeyCode.E))
+        {
+            collision.gameObject.GetComponent<Plate>().AddIngredient(Hand.instance.inHand.GetComponent<Ingredient>().ingredient);
         }
     }
 }

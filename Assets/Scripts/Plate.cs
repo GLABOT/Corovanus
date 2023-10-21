@@ -10,57 +10,45 @@ public class Plate : MonoBehaviour
     [SerializeField] private float _ingredientsOffset;
     [SerializeField] private Transform _ingredientsCreationPoint;
     private List<IngredientInfo> _ingredients;
-    private List<RecipeItemInfo> _allRecipesData;
+    public RecipeItemInfo Recipe;
     private List<GameObject> _ingredientPrefabs;
 
     private void Awake()
     {
         _ingredients = new List<IngredientInfo>();
-        _allRecipesData = ScriptableDatabase.instance.recipes;
+        _ingredientPrefabs = new List<GameObject>();
     }
 
     public void AddIngredient(IngredientInfo ingredient)
     {
-        if (_ingredients.Count<_maxIngredients)
-            _ingredients.Add(ingredient);
+        if (!Recipe.ingredients.Contains(ingredient) || _ingredients.Contains(ingredient)) return;
+        _ingredients.Add(ingredient);
+        _ingredientPrefabs.Add(ingredient.prefab);
         RearrangeIngredients();
-    }
-    
-    public void CleanPlate()
-    {
-        _ingredients.Clear();
-    }
-
-    public RecipeItemInfo CreateItem() // метод который возвращает рецепт если можно создать еду из 
-    {                                   // лежащих на тарелке ингредиентов, иначе возвращает null 
-        for (int i = 0; i < _allRecipesData.Count; i++)
-        {
-            if (_ingredients.Count != _allRecipesData[i].ingredients.Count) continue;
-            if (_ingredients.All(_allRecipesData[i].ingredients.Contains))
-                return _allRecipesData[i];
-        }
-        return null;
     }
 
     private void RearrangeIngredients()
     {
-        if (_ingredients.Count < 2) return;
-        for (int j = 0; j < _ingredients.Count; j++) // bubblesort ^.^
+        if (_ingredients.Count > 1)
         {
-            for (int i = 0; i < _ingredients.Count; i++)
+            for (int j = 0; j < _ingredients.Count; j++) // bubblesort ^.^
             {
-                if (_ingredients[i].priority < _ingredients[i + 1].priority)
+                for (int i = 0; i < _ingredients.Count - 1; i++)
                 {
-                    (_ingredients[i], _ingredients[i + 1]) = (_ingredients[i + 1], _ingredients[i]);
+                    if (_ingredients[i].priority < _ingredients[i + 1].priority)
+                    {
+                        (_ingredients[i], _ingredients[i + 1]) = (_ingredients[i + 1], _ingredients[i]);
+                    }
                 }
             }
         }
+        
         RecreateIngredients();
     }
 
     private void RecreateIngredients()
     {
-        for (int i = 0; i < _ingredients.Count-1; i++)
+        for (int i = 0; i < _ingredients.Count; i++)
         {
             Destroy(_ingredientPrefabs[i]);
         }
