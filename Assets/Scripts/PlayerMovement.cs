@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private GameObject _knife;
     [SerializeField] private GameObject _tray;
     [SerializeField] private GameObject _plate; // ингредиенты которые будут в руках пускай в этом трансформе будут
+    [SerializeField] private Transform _holdingTransform;
     public bool isCooking; // поля для анимаций нужны, изменяются прям тут
     public bool isSinking;
     public bool isChopping;
@@ -48,6 +49,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void MovePlayer()
     {
+        if (UserInput() == Vector3.zero)
+            _rigidbody.velocity = Vector3.zero;
         transform.Translate(UserInput() * (_speed * Time.deltaTime), Space.World);
     }
 
@@ -76,13 +79,12 @@ public class PlayerMovement : MonoBehaviour
     {
         isHolding = false;
         isCooking = true;
-        _knife.GetComponent<MeshRenderer>().enabled = true;
         yield return new WaitForSeconds(time);
         _knife.GetComponent<MeshRenderer>().enabled = false;
         isCooking = false;
         isSinking = false;
         isChopping = false;
-        _objectInHand = Instantiate(cookedIngredient, _plate.transform);
+        _objectInHand = Instantiate(cookedIngredient, _holdingTransform, true);
         isHolding = true;
     }
     
@@ -91,7 +93,8 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Box") && !isHolding && Input.GetKey(KeyCode.E))
         {
             var boxClass = collision.gameObject.GetComponent<BoxClass>();
-            _objectInHand = Instantiate(boxClass.pickUpObject, _plate.transform);
+            _objectInHand = Instantiate(boxClass.pickUpObject, _holdingTransform, true);
+            
             isHoldingIngredient = true;
         }
         //adding objectInHand to plate
@@ -100,6 +103,7 @@ public class PlayerMovement : MonoBehaviour
             var plate = collision.gameObject.GetComponent<Plate>();
             plate.AddIngredient(_objectInHand.GetComponent<Ingredient>().ingredient);
             Destroy(_objectInHand);
+            
             isHoldingIngredient = false;
         }
         //cooking something on something
@@ -109,10 +113,18 @@ public class PlayerMovement : MonoBehaviour
             kitchenUnit.Cook(_objectInHand.GetComponent<Ingredient>().ingredient);
             Destroy(_objectInHand);
             StartCoroutine(Cook(kitchenUnit.timeToCook, kitchenUnit.CookedIngredient));
+            
             if (kitchenUnit.GetType() == typeof(Sink))
+            {
                 isSinking = true;
+                _knife.GetComponent<MeshRenderer>().enabled = true;
+            }
+
             if (kitchenUnit.GetType() == typeof(SlicingTable))
+            {
                 isChopping = true;
+                _knife.GetComponent<MeshRenderer>().enabled = true;
+            }
         }
     }
 }

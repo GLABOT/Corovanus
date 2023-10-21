@@ -112,8 +112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _ingredientInstantiateTransform: {fileID: 5028051557489243461}
-  timeToCook: 3
-  cookedIngredient: {fileID: 0}
+  timeToCook: 4
 --- !u!1 &5971964666608602405
 GameObject:
   m_ObjectHideFlags: 0
