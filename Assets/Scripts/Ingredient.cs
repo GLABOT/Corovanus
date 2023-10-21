@@ -15,8 +15,8 @@ public class Ingredient : MonoBehaviour
 
         if (Input.GetKey(KeyCode.E))
         {
-            GameObject obj = Instantiate(Prefab, transform);
-            Hand.instance.PutInHand(obj);
+            //GameObject obj = Instantiate(Prefab, transform);
+            Hand.instance.PutInHand(Prefab);
             PlayerMovement.instance.isHolding = true;
         }
     }

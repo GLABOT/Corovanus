@@ -13,10 +13,11 @@ MonoBehaviour:
   m_Name: FrenchPotatoRaw
   m_EditorClassIdentifier: 
   _ingredientName: FrenchPotatoRaw
-  _prefab: {fileID: 0}
+  _prefab: {fileID: 2564256895113444920, guid: a48edc864498c454f944d43de693820f, type: 3}
   _grilledIngredient: {fileID: 0}
   _slicedIngredient: {fileID: 0}
   _deepFriedIngredient: {fileID: 11400000, guid: 26b428450f19a42438d2b4a6ba2998f5,
     type: 2}
   _washedIngredient: {fileID: 0}
   _priority: 10
+  sprite: {fileID: 0}

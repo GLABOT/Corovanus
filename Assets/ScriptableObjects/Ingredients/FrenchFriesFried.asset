@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: FrenchFriesFried
   m_EditorClassIdentifier: 
   _ingredientName: FrenchFriesFried
-  _prefab: {fileID: 0}
+  _prefab: {fileID: 2564256895113444920, guid: 4623a40c796634e59aec0920612ba79a, type: 3}
   _grilledIngredient: {fileID: 0}
   _slicedIngredient: {fileID: 0}
   _deepFriedIngredient: {fileID: 0}
   _washedIngredient: {fileID: 0}
   _priority: 10
+  sprite: {fileID: 0}

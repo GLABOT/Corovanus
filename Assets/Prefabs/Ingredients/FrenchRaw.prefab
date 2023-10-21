@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4071760792198865684}
   - component: {fileID: 7968508465958790703}
   m_Layer: 0
-  m_Name: FrenchFries
+  m_Name: FrenchRaw
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfdee4a208b84296a3e071cea4ed2665, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ingredient: {fileID: 11400000, guid: 26b428450f19a42438d2b4a6ba2998f5, type: 2}
+  ingredient: {fileID: 11400000, guid: 51c2ddc11e7935d40834e3bf31466126, type: 2}
   Prefab: {fileID: 0}
 --- !u!65 &7968508465958790703
 BoxCollider:
