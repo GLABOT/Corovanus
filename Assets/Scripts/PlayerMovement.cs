@@ -31,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
 
         _rigidbody = GetComponent<Rigidbody>();
         _knife.GetComponent<MeshRenderer>().enabled = false;
-        //_plate.GetComponent<MeshRenderer>().enabled = false;
+        _plate.GetComponent<MeshRenderer>().enabled = false;
         _tray.GetComponent<MeshRenderer>().enabled = false;
     }
 
