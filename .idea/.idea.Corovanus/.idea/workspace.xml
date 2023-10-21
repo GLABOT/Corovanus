@@ -5,14 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c02ca8f8-34de-4f75-ae98-f3d79582ae0b" name="Changes" comment="add link to recipes database">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Corovanus/.idea/shelf/Uncommitted_changes_before_Update_at_20_10_2023_15_56__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Corovanus/.idea/shelf/Uncommitted_changes_before_Update_at_20_10_2023_15_56__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Corovanus/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Corovanus/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Ingredient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Ingredient.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Corovanus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Corovanus/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/OrderSystem.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/OrderSystem.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FriedYashik.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FriedYashik.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Tomato.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Tomato.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TomatoYashik.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/TomatoYashik.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TESTLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TESTLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TESTLevel_2.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TESTLevel_2.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Ingredients/Tomato.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Ingredients/Tomato.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BoxClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BoxClass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IngredientsDisplay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IngredientsDisplay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractionManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/DeepFryer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/DeepFryer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/Grill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/Grill.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/Sink.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/Sink.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMoevement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMoevement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/SlicingTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/SlicingTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/KitchenUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/KitchenUnit.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Plate.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestModels.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestModels/Fried.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestModels/Fried.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

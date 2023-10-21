@@ -1,6 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Net;
+using KitchenUnits;
+using ScriptableObjects.Ingredients;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,10 +11,10 @@ public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float _speed;
     [SerializeField] private GameObject targetPickUp;
-    private Vector3 movement;
+    private Vector3 _movement;
     private bool _isGrabbed;
     private bool _isCooking;
-    private BoxClass _boxClass;
+    private GameObject _objectInHand;
     
     private void FixedUpdate()
     {
@@ -33,9 +36,9 @@ public class PlayerMovement : MonoBehaviour
     private void RotatePlayer()
     {
         if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.D))
-            movement = UserInput();
+            _movement = UserInput();
 
-        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movement), 0.15f);
+        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(_movement), 0.15f);
     }
     private Vector3 UserInput()
     {
@@ -44,20 +47,35 @@ public class PlayerMovement : MonoBehaviour
         return new Vector3(horizontalInput, 0f, verticalInput);
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private IEnumerator Cook(float time, GameObject cookedIngredient)
     {
-        if (collision.gameObject.CompareTag("Box") && _isGrabbed == false)
+        _isCooking = true;
+        yield return new WaitForSeconds(time);
+        _isCooking = false;
+        _objectInHand = Instantiate(cookedIngredient, targetPickUp.transform);
+    }
+    
+    private void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Box") && _objectInHand == null && Input.GetKey(KeyCode.E))
         {
-            _boxClass = collision.gameObject.GetComponent<BoxClass>();
-            Instantiate(_boxClass.pickUpObject, targetPickUp.transform);
-            _isGrabbed = true;
+            var boxClass = collision.gameObject.GetComponent<BoxClass>();
+            _objectInHand = Instantiate(boxClass.pickUpObject, targetPickUp.transform);
         }
-
-        if (collision.gameObject.CompareTag("Podnos") && _isGrabbed == true)
+        //adding objectInHand to plate
+        if (collision.gameObject.CompareTag("Podnos") && _objectInHand != null && Input.GetKey(KeyCode.E))
         {
-            string nameOfObject = _boxClass.pickUpObject.name.ToString();
-            Destroy(GameObject.Find(string.Concat(nameOfObject,"(Clone)")));
-            _isGrabbed = false;
+            var plate = collision.gameObject.GetComponent<Plate>();
+            plate.AddIngredient(_objectInHand.GetComponent<Ingredient>().ingredient);
+            Destroy(_objectInHand);
+        }
+        //cooking something on something
+        if (collision.gameObject.CompareTag("KitchenUnit") && _objectInHand != null && Input.GetKey(KeyCode.E) && !_isCooking)
+        {
+            var kitchenUnit = collision.gameObject.GetComponent<KitchenUnit>();
+            kitchenUnit.Cook(_objectInHand.GetComponent<Ingredient>().ingredient);
+            Destroy(_objectInHand);
+            StartCoroutine(Cook(kitchenUnit.timeToCook, kitchenUnit.cookedIngredient));
         }
     }
 }
