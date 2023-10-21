@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TomatoSliced
   m_EditorClassIdentifier: 
   _ingredientName: TomatoSliced
-  _prefab: {fileID: 0}
+  _prefab: {fileID: 2718827816362682394, guid: 1198c2e643ee2bc45916c6836f2ce592, type: 3}
   _grilledIngredient: {fileID: 0}
   _slicedIngredient: {fileID: 0}
   _deepFriedIngredient: {fileID: 0}

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Cheese
   m_EditorClassIdentifier: 
   _ingredientName: Cheese
-  _prefab: {fileID: 0}
+  _prefab: {fileID: 4951263615589213014, guid: c101731cefda4f44c9a4bed763904588, type: 3}
   _grilledIngredient: {fileID: 11400000, guid: d84175abcf7b0b547b4f74deafb4dc91, type: 2}
   _slicedIngredient: {fileID: 0}
   _deepFriedIngredient: {fileID: 0}

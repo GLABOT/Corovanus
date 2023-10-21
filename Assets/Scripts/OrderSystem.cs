@@ -21,6 +21,7 @@ public class OrderSystem : MonoBehaviour
     {
         int randnum = Random.Range(0,ScriptableDatabase.instance.recipes.Count);       //?? ???-?? ???????? ???????
         Debug.Log("You need to cook" + ScriptableDatabase.instance.recipes[randnum].name);
+        GameManager.instance.currentRecipe = ScriptableDatabase.instance.recipes[randnum];
         GameObject instance = Instantiate(OrderPrefab, transform.position, Quaternion.identity, transform);
         Order orderComponent = instance.GetComponent<Order>();
         orderComponent.SetRecipe(ScriptableDatabase.instance.recipes[randnum]);

@@ -1,15 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using ScriptableObjects.RecipeItems;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
+    public RecipeItemInfo currentRecipe;
+
     private void Start()
     {
         if (instance == null)
             instance = this;
+
 
         StartCoroutine(WaitForOrder());
     }

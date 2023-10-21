@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Bun
   m_EditorClassIdentifier: 
   _ingredientName: Bun
-  _prefab: {fileID: 0}
+  _prefab: {fileID: 6880370648304810207, guid: e3bb5b71dc63d6344b81941ae609957b, type: 3}
   _grilledIngredient: {fileID: 0}
   _slicedIngredient: {fileID: 0}
   _deepFriedIngredient: {fileID: 0}

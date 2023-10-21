@@ -6,6 +6,8 @@ using UnityEngine;
 
 public class Plate : MonoBehaviour
 {
+    public static Plate instance;
+
     [SerializeField] private int _maxIngredients;
     [SerializeField] private float _ingredientsOffset;
     [SerializeField] private Transform _ingredientsCreationPoint;
@@ -15,13 +17,14 @@ public class Plate : MonoBehaviour
 
     private void Awake()
     {
+        instance = this;
         _ingredients = new List<IngredientInfo>();
         _ingredientPrefabs = new List<GameObject>();
     }
 
     public void AddIngredient(IngredientInfo ingredient)
     {
-        if (!Recipe.ingredients.Contains(ingredient) || _ingredients.Contains(ingredient)) return;
+        if (!GameManager.instance.currentRecipe.ingredients.Contains(ingredient) || _ingredients.Contains(ingredient)) return;
         _ingredients.Add(ingredient);
         _ingredientPrefabs.Add(ingredient.prefab);
         RearrangeIngredients();
