@@ -11,12 +11,12 @@ public class Trash : MonoBehaviour
             if (Hand.instance.inHand == null)
                 return;
 
-        Debug.Log("touching trash");
+            Debug.Log("touching trash");
 
             if (Input.GetKey(KeyCode.E))
             {
-            Debug.Log("trashing");
-            Hand.instance.ReleaseObject();
+                Debug.Log("trashing");
+                Hand.instance.ReleaseObject();
             }
     }
 }
