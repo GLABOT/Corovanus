@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 2582685982447165518}
   - component: {fileID: 5442518506668157631}
   - component: {fileID: 611813365572150909}
+  - component: {fileID: 2422404881806303522}
+  - component: {fileID: -1731388719162477189}
   m_Layer: 0
   m_Name: Cucumber
   m_TagString: Untagged
@@ -97,3 +99,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredient: {fileID: 11400000, guid: 143c8463daa385b4395eb982843c6bf6, type: 2}
+  Prefab: {fileID: 0}
+--- !u!54 &2422404881806303522
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222022735093249376}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &-1731388719162477189
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222022735093249376}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.23899654, y: 0.21524177, z: 0.7823303}
+  m_Center: {x: 0.0202959, y: -0.00000008195639, z: 0.038653612}

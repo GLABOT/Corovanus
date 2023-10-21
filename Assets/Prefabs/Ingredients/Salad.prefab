@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 776647065769901923}
   - component: {fileID: 2927040056188278842}
   - component: {fileID: 6749798335658270132}
+  - component: {fileID: 3819925207947612075}
+  - component: {fileID: -5862149621629570950}
   m_Layer: 0
   m_Name: Salad
   m_TagString: Untagged
@@ -97,3 +99,33 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingredient: {fileID: 11400000, guid: cb9417276cbf06046b7a14e6ad9ab84f, type: 2}
+  Prefab: {fileID: 0}
+--- !u!54 &3819925207947612075
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6569691203941703810}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &-5862149621629570950
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6569691203941703810}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.3499945, y: 0.046894945, z: 0.49128565}
+  m_Center: {x: 0.0035025328, y: 0.009327519, z: 0.020427182}

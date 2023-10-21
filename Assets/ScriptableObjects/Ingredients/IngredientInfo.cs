@@ -20,5 +20,6 @@ namespace ScriptableObjects.Ingredients
         public IngredientInfo deepFriedIngredient => _deepFriedIngredient;
         public IngredientInfo washedIngredient => _washedIngredient;
         public int priority => _priority;
+        public Sprite sprite;
     }
 }
