@@ -12,12 +12,12 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private GameObject _plate; // ингредиенты которые будут в руках пускай в этом трансформе будут
     [SerializeField] private Transform _holdingTransform;
     public bool isCooking; // поля для анимаций нужны, изменяются прям тут
-    public bool isSinking;
+    public bool isWashing;
     public bool isChopping;
     public bool isWalking;
     public bool isHolding;
+    public bool isSaucing; // TODO: описать изменение надо
     public bool isHoldingPlate;
-    public bool isHoldingTray;
     public bool isHoldingIngredient;
     private Vector3 _movement;
     private GameObject _objectInHand;
@@ -27,9 +27,10 @@ public class PlayerMovement : MonoBehaviour
     {
         _rigidbody = GetComponent<Rigidbody>();
         _knife.GetComponent<MeshRenderer>().enabled = false;
-        _plate.GetComponent<MeshRenderer>().enabled = true;
+        _plate.GetComponent<MeshRenderer>().enabled = false;
         _tray.GetComponent<MeshRenderer>().enabled = false;
     }
+    
     private void FixedUpdate()
     {
         if (isCooking)
@@ -49,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void MovePlayer()
     {
-        if (UserInput() == Vector3.zero)
+        if (UserInput().Equals(Vector3.zero))
             _rigidbody.velocity = Vector3.zero;
         transform.Translate(UserInput() * (_speed * Time.deltaTime), Space.World);
     }
@@ -57,7 +58,7 @@ public class PlayerMovement : MonoBehaviour
     private void UpdateBooleans()
     {
         isHolding = _objectInHand != null;
-        isWalking = _rigidbody.velocity == Vector3.zero;
+        isWalking = !UserInput().Equals(Vector3.zero);
     }
     
     private void RotatePlayer()
@@ -82,7 +83,7 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(time);
         _knife.GetComponent<MeshRenderer>().enabled = false;
         isCooking = false;
-        isSinking = false;
+        isWashing = false;
         isChopping = false;
         _objectInHand = Instantiate(cookedIngredient, _holdingTransform, true);
         isHolding = true;
@@ -117,7 +118,7 @@ public class PlayerMovement : MonoBehaviour
             
             if (kitchenUnit.GetType() == typeof(Sink))
             {
-                isSinking = true;
+                isWashing = true;
                 _knife.GetComponent<MeshRenderer>().enabled = true;
             }
 

@@ -4,12 +4,90 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c02ca8f8-34de-4f75-ae98-f3d79582ae0b" name="Changes" comment="add bool fields for animations">
+    <list default="true" id="c02ca8f8-34de-4f75-ae98-f3d79582ae0b" name="Changes" comment="fix playermovement">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Corovanus/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_10_2023_1_15__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Corovanus/.idea/shelf/Uncommitted_changes_before_Update_at_21_10_2023_4_55__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Corovanus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Corovanus/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Tomato.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Tomato.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Bacon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Bacon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Beef.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Beef.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Bread_bottom.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Bread_bottom.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Bread_top.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Bread_top.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Cheeze.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Cheeze.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Cucumber.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Cucumber.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Cucumber_sliced.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Cucumber_sliced.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt/BurgerParts_DefaultMaterial_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt/BurgerParts_DefaultMaterial_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt/BurgerParts_DefaultMaterial_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt/BurgerParts_DefaultMaterial_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt/BurgerParts_DefaultMaterial_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt/BurgerParts_DefaultMaterial_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt/Cucumber.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt/Cucumber.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt/Materials/BurgerParts_DefaultMaterial_AlbedoTransparency.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt/Materials/BurgerParts_DefaultMaterial_AlbedoTransparency.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt/Materials/BurgerParts_DefaultMaterial_MetallicSmoothness.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt/Materials/BurgerParts_DefaultMaterial_MetallicSmoothness.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt/Materials/BurgerParts_DefaultMaterial_Normal.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt/Materials/BurgerParts_DefaultMaterial_Normal.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt/Onion.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt/Onion.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt/Salad.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt/Salad.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt/Tomato_full.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_dirt/Tomato_full.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Bacon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Bacon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Beef.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Beef.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Bread_bottom.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Bread_bottom.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Bread_top.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Bread_top.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/BurgerParts_DefaultMaterial_AlbedoTransparency.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/BurgerParts_DefaultMaterial_AlbedoTransparency.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/BurgerParts_DefaultMaterial_MetallicSmoothness.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/BurgerParts_DefaultMaterial_MetallicSmoothness.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/BurgerParts_DefaultMaterial_Normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/BurgerParts_DefaultMaterial_Normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Cheeze.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Cheeze.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Cucumber.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Cucumber.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Cucumber_sliced.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Cucumber_sliced.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/FrenchFries.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/FrenchFries.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Materials/BurgerParts_DefaultMaterial_AlbedoTransparency.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Materials/BurgerParts_DefaultMaterial_AlbedoTransparency.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Materials/BurgerParts_DefaultMaterial_MetallicSmoothness.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Materials/BurgerParts_DefaultMaterial_MetallicSmoothness.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Materials/BurgerParts_DefaultMaterial_Normal.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Materials/BurgerParts_DefaultMaterial_Normal.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Onion.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Onion.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Onion_sliced.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Onion_sliced.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Salad.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Salad.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Tomato_full.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Tomato_full.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Tomato_sliced.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/DirtyBurgers/Burger_raw/Tomato_sliced.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/FrenchFries.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/FrenchFries.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Onion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Onion.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Onion_sliced.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Onion_sliced.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Salad.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Salad.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Tomato_full.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Tomato_full.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Tomato_sliced.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Tomato_sliced.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/TESTLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TESTLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +97,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Cooking" />
+        <entry key="$PROJECT_DIR$" value="PlateWithIngredients" />
       </map>
     </option>
   </component>
@@ -37,50 +115,27 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Models.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Models.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Models.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Prefabs/Grill.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Prefabs/Ingredients/Tomato.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scenes/OrderSystem.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scenes/OrderSystem.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scenes/OrderSystem.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scenes/TESTLevel.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scenes/TESTLevel.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scenes/TESTLevel.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scenes/TESTLevel.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/ScriptableObjects/Ingredients/IngredientInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/ScriptableObjects/Ingredients/Tomato.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/91dc399f41a440558c716315c7e834ab15aa00/40/b74a7eed/02000251.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/91dc399f41a440558c716315c7e834ab15aa00/c2/705c996a/0200024D.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/ILViewer/91dc399f41a440558c716315c7e834ab15aa00/fc/a02f61e7/0200026A.il" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/91dc399f41a440558c716315c7e834ab15aa00/26/cfd03962/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/91dc399f41a440558c716315c7e834ab15aa00/45/0878bd5f/Behaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/91dc399f41a440558c716315c7e834ab15aa00/49/cd7095e7/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/91dc399f41a440558c716315c7e834ab15aa00/4e/764e322b/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/91dc399f41a440558c716315c7e834ab15aa00/c8/34ac3ba1/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Prefabs/Ingredients/Bacon.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/ScriptableDatabase.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/BoxClass.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/BoxClass.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/InteractionManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/KitchenUnits/ConcreteUnits/DeepFryer.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/KitchenUnits/ConcreteUnits/Grill.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/KitchenUnits/ConcreteUnits/Sink.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/KitchenUnits/ConcreteUnits/Sink.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/KitchenUnits/ConcreteUnits/SlicingTable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/KitchenUnits/KitchenUnit.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/KitchenUnits/KitchenUnit.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Order.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OrderSystem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/Plate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Plate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/Plate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/PlayerMovement.cs.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Timer/Timer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.6.3/InputSystem/Actions/InputAction.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/ProjectSettings/URPProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2X1nGStt4IvrQjyoHjLi00IpBUQ" />
@@ -213,7 +268,31 @@
       <option name="project" value="LOCAL" />
       <updated>1697873228071</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add ingredients prefabs with models">
+      <option name="closed" value="true" />
+      <created>1697873279380</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697873279380</updated>
+    </task>
+    <task id="LOCAL-00009" summary="ingredients prefabs with models">
+      <option name="closed" value="true" />
+      <created>1697878036397</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1697878036397</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix playermovement">
+      <option name="closed" value="true" />
+      <created>1697889658431</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1697889658431</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +348,41 @@
     <MESSAGE value="add something something" />
     <MESSAGE value="renaming" />
     <MESSAGE value="add bool fields for animations" />
-    <option name="LAST_COMMIT_MESSAGE" value="add bool fields for animations" />
+    <MESSAGE value="add ingredients prefabs with models" />
+    <MESSAGE value="ingredients prefabs with models" />
+    <MESSAGE value="fix playermovement" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix playermovement" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs</url>
+          <line>121</line>
+          <properties documentPath="C:\Users\Professional\RiderProjects\Corovanus\Assets\Scripts\PlayerMovement.cs" initialLine="120" containingFunctionPresentation="Method 'OnCollisionStay'">
+            <startOffsets>
+              <option value="4243" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4244" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs</url>
+          <line>127</line>
+          <properties documentPath="C:\Users\Professional\RiderProjects\Corovanus\Assets\Scripts\PlayerMovement.cs" initialLine="126" containingFunctionPresentation="Method 'OnCollisionStay'">
+            <startOffsets>
+              <option value="4438" />
+            </startOffsets>
+            <endOffsets>
+              <option value="4439" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

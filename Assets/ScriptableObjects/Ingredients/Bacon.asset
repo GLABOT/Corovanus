@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Bacon
   m_EditorClassIdentifier: 
   _ingredientName: Bacon
-  _prefab: {fileID: 0}
+  _prefab: {fileID: 6547610261639579486, guid: 4c82f93b67503c643a22c5383a73e9dc, type: 3}
   _grilledIngredient: {fileID: 11400000, guid: e05925078d455f147a31906fe486fa8d, type: 2}
   _slicedIngredient: {fileID: 0}
   _deepFriedIngredient: {fileID: 0}
