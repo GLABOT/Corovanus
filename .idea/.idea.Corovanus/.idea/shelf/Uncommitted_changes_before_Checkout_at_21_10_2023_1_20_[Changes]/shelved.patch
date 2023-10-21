@@ -1,0 +1,15 @@
+Index: Assets/Scripts.meta
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>fileFormatVersion: 2\r\nguid: 07bfb86a84f803f4583ab4025fe16eec\r\nfolderAsset: yes\r\nDefaultImporter:\r\n  externalObjects: {}\r\n  userData: \r\n  assetBundleName: \r\n  assetBundleVariant: \r\n
+===================================================================
+diff --git a/Assets/Scripts.meta b/Assets/Scripts.meta
+--- a/Assets/Scripts.meta	
++++ b/Assets/Scripts.meta	
+@@ -1,5 +1,5 @@
+ fileFormatVersion: 2
+-guid: 07bfb86a84f803f4583ab4025fe16eec
++guid: 4209f141798424206bdf919abe6e7673
+ folderAsset: yes
+ DefaultImporter:
+   externalObjects: {}
