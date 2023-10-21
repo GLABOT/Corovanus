@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Models.meta
 guid: 0b9ecfb4579e96b4c955378b02407378
+========
+guid: 4209f141798424206bdf919abe6e7673
+>>>>>>>> origin/Cooking:Assets/Scripts.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

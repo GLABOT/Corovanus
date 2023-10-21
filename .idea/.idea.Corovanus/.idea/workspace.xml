@@ -5,34 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c02ca8f8-34de-4f75-ae98-f3d79582ae0b" name="Changes" comment="add link to recipes database">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Ingredient.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Ingredient.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Corovanus/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_10_2023_1_15__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Corovanus/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_10_2023_1_20_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Corovanus/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_10_2023_1_20_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Corovanus/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_10_2023_1_20__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Corovanus/.idea/shelf/Uncommitted_changes_before_Checkout_at_21_10_2023_1_20__Changes_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Corovanus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Corovanus/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FriedYashik.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FriedYashik.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Tomato.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Tomato.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TomatoYashik.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/TomatoYashik.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TESTLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TESTLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TESTLevel_2.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TESTLevel_2.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ScriptableObjects/Ingredients/Tomato.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ScriptableObjects/Ingredients/Tomato.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BoxClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BoxClass.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IngredientsDisplay.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IngredientsDisplay.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InteractionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InteractionManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/DeepFryer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/DeepFryer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/Grill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/Grill.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/Sink.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/Sink.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/SlicingTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/SlicingTable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/KitchenUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/KitchenUnit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Plate.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Plate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestModels.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestModels/Fried.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Models.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FriedYashik.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FriedYashik.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FriedYashik.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FriedYashik.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Grill.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Grill.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestModels.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestModels.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TestModels/Fried.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +29,7 @@
         <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -60,19 +45,44 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Models.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Models.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Prefabs/Ingredients/Tomato.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scenes/OrderSystem.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scenes/OrderSystem.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scenes/OrderSystem.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scenes/TESTLevel.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scenes/TESTLevel.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scenes/TESTLevel.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/ScriptableObjects/Ingredients/IngredientInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/ScriptableObjects/Ingredients/Tomato.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/ScriptableDatabase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/BoxClass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/BoxClass.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/InteractionManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/KitchenUnits/ConcreteUnits/DeepFryer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/KitchenUnits/ConcreteUnits/Grill.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/KitchenUnits/ConcreteUnits/Sink.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/KitchenUnits/ConcreteUnits/Sink.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/KitchenUnits/ConcreteUnits/SlicingTable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/KitchenUnits/KitchenUnit.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Order.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OrderSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/Plate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Plate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/Plate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/PlayerMovement.cs.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Timer/Timer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.6.3/InputSystem/Actions/InputAction.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2X1nGStt4IvrQjyoHjLi00IpBUQ" />

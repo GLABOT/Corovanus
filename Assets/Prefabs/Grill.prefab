@@ -45,7 +45,11 @@ GameObject:
   - component: {fileID: 7911941518742702386}
   - component: {fileID: 7911941518742702397}
   m_Layer: 0
+<<<<<<<< HEAD:Assets/Prefabs/Grill.prefab
+  m_Name: Grill
+========
   m_Name: Cube (1)
+>>>>>>>> origin/Cooking:Assets/Prefabs/Cube (1).prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -143,4 +147,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _ingredientInstantiateTransform: {fileID: 7911941517202516979}
+<<<<<<<< HEAD:Assets/Prefabs/Grill.prefab
+  timeToCook: 5
+  cookedIngredient: {fileID: 0}
+========
   _timeToCook: 10
+>>>>>>>> origin/Cooking:Assets/Prefabs/Cube (1).prefab
