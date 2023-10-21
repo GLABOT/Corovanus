@@ -24,8 +24,6 @@ public class Hand : MonoBehaviour
         ingridientInstance.transform.localPosition = Vector3.zero; // Установить локальную позицию объекта в (0, 0, 0)
         ingridientInstance.transform.localRotation = Quaternion.identity; // Установить локальную ротацию объекта в начальное положение
         inHand = ingridientInstance;
-
-        
     }
 
     public void ReleaseObject()

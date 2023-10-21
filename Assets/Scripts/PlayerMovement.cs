@@ -123,7 +123,7 @@ public class PlayerMovement : MonoBehaviour
             if (kitchenUnit.GetType() == typeof(Sink))
             {
                 isWashing = true;
-                _knife.GetComponent<MeshRenderer>().enabled = true;
+                
             }
 
             if (kitchenUnit.GetType() == typeof(SlicingTable))

@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: BeefPatty
   m_EditorClassIdentifier: 
   _ingredientName: BeefPatty
-  _prefab: {fileID: 0}
+  _prefab: {fileID: 1765518475345640105, guid: fe18c308e5e3dc6438cec0a4f8a664a7, type: 3}
   _grilledIngredient: {fileID: 0}
   _slicedIngredient: {fileID: 0}
   _deepFriedIngredient: {fileID: 0}
   _washedIngredient: {fileID: 0}
   _priority: 1
+  sprite: {fileID: 0}
