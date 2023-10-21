@@ -22,6 +22,7 @@ public class Order : MonoBehaviour
         recipe = Recipe;
         findCells();
         hideNonActiveCells();
+        setIngridients();
     }
 
     private void hideNonActiveCells()
@@ -32,7 +33,7 @@ public class Order : MonoBehaviour
 
     private void setIngridients()
     {
-        for (int i = 0; i < images.Length; i++)
+        for (int i = 0; i < images.Length-1; i++)
         {
             images[i].sprite = recipe.ingredients[i].sprite;
         }

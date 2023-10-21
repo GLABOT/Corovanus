@@ -19,3 +19,4 @@ MonoBehaviour:
   _deepFriedIngredient: {fileID: 0}
   _washedIngredient: {fileID: 0}
   _priority: 2
+  sprite: {fileID: 21300000, guid: fdabcaedaf5fd4040b255c94c4f31db4, type: 3}

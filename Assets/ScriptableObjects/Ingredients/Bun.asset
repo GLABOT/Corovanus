@@ -14,3 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _ingredientName: Bun
   _prefab: {fileID: 0}
+  _grilledIngredient: {fileID: 0}
+  _slicedIngredient: {fileID: 0}
+  _deepFriedIngredient: {fileID: 0}
+  _washedIngredient: {fileID: 0}
+  _priority: 0
+  sprite: {fileID: 21300000, guid: 1b06e722943464b09b230f7959090a84, type: 3}

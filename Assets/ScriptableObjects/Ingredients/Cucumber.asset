@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e21a504800e544a6916a72779b11aabd, type: 3}
-  m_Name: Pickles
+  m_Name: Cucumber
   m_EditorClassIdentifier: 
-  _ingredientName: Pickles
-  _prefab: {fileID: 0}
+  _ingredientName: Cucumber
+  _prefab: {fileID: 1222022735093249376, guid: 4fb6cdd2b0d804d44b2bee5eb4af0e59, type: 3}
   _grilledIngredient: {fileID: 0}
   _slicedIngredient: {fileID: 11400000, guid: b5d78bae2526d2d4fa3fde62ed5f339e, type: 2}
   _deepFriedIngredient: {fileID: 0}
   _washedIngredient: {fileID: 0}
-  _priority: 4
+  _priority: 0
+  sprite: {fileID: 0}
