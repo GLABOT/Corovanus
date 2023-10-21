@@ -17,10 +17,12 @@ public class OrderSystem : MonoBehaviour
         
     }
 
-    public void newOrder(RecipeItemInfo order)
-    { 
+    public void newOrder()
+    {
+        int randnum = Random.Range(0,ScriptableDatabase.instance.recipes.Count);       //?? ???-?? ???????? ???????
+        Debug.Log("You need to cook" + ScriptableDatabase.instance.recipes[randnum].name);
         GameObject instance = Instantiate(OrderPrefab, transform.position, Quaternion.identity, transform);
         Order orderComponent = instance.GetComponent<Order>();
-        orderComponent.SetRecipe(order);
+        orderComponent.SetRecipe(ScriptableDatabase.instance.recipes[randnum]);
     }
 }

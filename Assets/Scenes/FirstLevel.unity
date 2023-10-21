@@ -3222,6 +3222,128 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4429309150066071272, guid: 332aba57997bc44279f618988de4e181,
+        type: 3}
+      propertyPath: recipes.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4429309150066071272, guid: 332aba57997bc44279f618988de4e181,
+        type: 3}
+      propertyPath: recipes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 184db9cd627dee443ba8cf6cf38acc86,
+        type: 2}
+    - target: {fileID: 4429309150066071272, guid: 332aba57997bc44279f618988de4e181,
+        type: 3}
+      propertyPath: recipes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0376ce03bd0035847a8cf0bebaf3a7f6,
+        type: 2}
+    - target: {fileID: 4429309150066071272, guid: 332aba57997bc44279f618988de4e181,
+        type: 3}
+      propertyPath: recipes.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: a8ca22969f9fd5546966852b45c433b8,
+        type: 2}
+    - target: {fileID: 4429309150066071272, guid: 332aba57997bc44279f618988de4e181,
+        type: 3}
+      propertyPath: recipes.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3db25a4a229d8c246ba2e87081fd58ae,
+        type: 2}
+    - target: {fileID: 4429309150066071272, guid: 332aba57997bc44279f618988de4e181,
+        type: 3}
+      propertyPath: recipes.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3db25a4a229d8c246ba2e87081fd58ae,
+        type: 2}
+    - target: {fileID: 4429309150066071272, guid: 332aba57997bc44279f618988de4e181,
+        type: 3}
+      propertyPath: recipes.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3db25a4a229d8c246ba2e87081fd58ae,
+        type: 2}
+    - target: {fileID: 4429309150066071272, guid: 332aba57997bc44279f618988de4e181,
+        type: 3}
+      propertyPath: recipes.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3db25a4a229d8c246ba2e87081fd58ae,
+        type: 2}
+    - target: {fileID: 4429309150066071272, guid: 332aba57997bc44279f618988de4e181,
+        type: 3}
+      propertyPath: recipes.Array.data[7]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4429309150066071272, guid: 332aba57997bc44279f618988de4e181,
+        type: 3}
+      propertyPath: recipes.Array.data[8]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4429309150066071272, guid: 332aba57997bc44279f618988de4e181,
+        type: 3}
+      propertyPath: ingredients.Array.size
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4429309150066071272, guid: 332aba57997bc44279f618988de4e181,
+        type: 3}
+      propertyPath: ingredients.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 26b428450f19a42438d2b4a6ba2998f5,
+        type: 2}
+    - target: {fileID: 4429309150066071272, guid: 332aba57997bc44279f618988de4e181,
+        type: 3}
+      propertyPath: ingredients.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: 51c2ddc11e7935d40834e3bf31466126,
+        type: 2}
+    - target: {fileID: 4429309150066071272, guid: 332aba57997bc44279f618988de4e181,
+        type: 3}
+      propertyPath: ingredients.Array.data[8]
+      value: 
+      objectReference: {fileID: 11400000, guid: fed59dc077d8b8d41bfaee8c8a3c97b1,
+        type: 2}
+    - target: {fileID: 4429309150066071272, guid: 332aba57997bc44279f618988de4e181,
+        type: 3}
+      propertyPath: ingredients.Array.data[9]
+      value: 
+      objectReference: {fileID: 11400000, guid: 33375d646f9f7d648a87808a9128d44b,
+        type: 2}
+    - target: {fileID: 4429309150066071272, guid: 332aba57997bc44279f618988de4e181,
+        type: 3}
+      propertyPath: ingredients.Array.data[10]
+      value: 
+      objectReference: {fileID: 11400000, guid: b5d78bae2526d2d4fa3fde62ed5f339e,
+        type: 2}
+    - target: {fileID: 4429309150066071272, guid: 332aba57997bc44279f618988de4e181,
+        type: 3}
+      propertyPath: ingredients.Array.data[11]
+      value: 
+      objectReference: {fileID: 11400000, guid: cb9417276cbf06046b7a14e6ad9ab84f,
+        type: 2}
+    - target: {fileID: 4429309150066071272, guid: 332aba57997bc44279f618988de4e181,
+        type: 3}
+      propertyPath: ingredients.Array.data[12]
+      value: 
+      objectReference: {fileID: 11400000, guid: 46d3bd28cef14b64a8fb3e0886324157,
+        type: 2}
+    - target: {fileID: 4429309150066071272, guid: 332aba57997bc44279f618988de4e181,
+        type: 3}
+      propertyPath: ingredients.Array.data[13]
+      value: 
+      objectReference: {fileID: 11400000, guid: f7827245f1c490a4496b5b6dfe4a5936,
+        type: 2}
+    - target: {fileID: 4429309150066071272, guid: 332aba57997bc44279f618988de4e181,
+        type: 3}
+      propertyPath: ingredients.Array.data[14]
+      value: 
+      objectReference: {fileID: 11400000, guid: 87152f7222d9f48459ae19707dd12734,
+        type: 2}
+    - target: {fileID: 4429309150066071272, guid: 332aba57997bc44279f618988de4e181,
+        type: 3}
+      propertyPath: ingredients.Array.data[15]
+      value: 
+      objectReference: {fileID: 11400000, guid: d6a3c1256f182414dbf02eda70049200,
+        type: 2}
     - target: {fileID: 4429309150066071274, guid: 332aba57997bc44279f618988de4e181,
         type: 3}
       propertyPath: m_Name
@@ -5565,19 +5687,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40a836b41753441399f885eaf7cf6d86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  recipesForFirstDay:
-  - {fileID: 11400000, guid: a8ca22969f9fd5546966852b45c433b8, type: 2}
-  - {fileID: 11400000, guid: 3db25a4a229d8c246ba2e87081fd58ae, type: 2}
-  recipesForSecondDay:
-  - {fileID: 11400000, guid: 184db9cd627dee443ba8cf6cf38acc86, type: 2}
-  - {fileID: 11400000, guid: a8ca22969f9fd5546966852b45c433b8, type: 2}
-  - {fileID: 11400000, guid: 0376ce03bd0035847a8cf0bebaf3a7f6, type: 2}
-  recipesForThirdDay:
-  - {fileID: 11400000, guid: 184db9cd627dee443ba8cf6cf38acc86, type: 2}
-  - {fileID: 11400000, guid: 0376ce03bd0035847a8cf0bebaf3a7f6, type: 2}
-  - {fileID: 11400000, guid: a8ca22969f9fd5546966852b45c433b8, type: 2}
-  - {fileID: 11400000, guid: 184db9cd627dee443ba8cf6cf38acc86, type: 2}
-  - {fileID: 11400000, guid: 3db25a4a229d8c246ba2e87081fd58ae, type: 2}
 --- !u!4 &1947405768
 Transform:
   m_ObjectHideFlags: 0
