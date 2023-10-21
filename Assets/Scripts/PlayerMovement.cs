@@ -1,17 +1,15 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Net;
 using KitchenUnits;
 using KitchenUnits.ConcreteUnits;
-using ScriptableObjects.Ingredients;
 using UnityEngine;
-using UnityEngine.InputSystem;
+using UnityEngine.Serialization;
 
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float _speed;
-    [SerializeField] private GameObject targetPickUp;
+    [SerializeField] private GameObject _knife;
+    [SerializeField] private GameObject _tray;
+    [SerializeField] private GameObject _plate; // ингредиенты которые будут в руках пускай в этом трансформе будут
     public bool isCooking; // поля для анимаций нужны, изменяются прям тут
     public bool isSinking;
     public bool isChopping;
@@ -27,6 +25,9 @@ public class PlayerMovement : MonoBehaviour
     private void Start()
     {
         _rigidbody = GetComponent<Rigidbody>();
+        _knife.GetComponent<MeshRenderer>().enabled = false;
+        _plate.GetComponent<MeshRenderer>().enabled = true;
+        _tray.GetComponent<MeshRenderer>().enabled = false;
     }
     private void FixedUpdate()
     {
@@ -35,7 +36,6 @@ public class PlayerMovement : MonoBehaviour
             isWalking = false;
             return;
         }
-        
         MovePlayer();
     }
 
@@ -76,11 +76,14 @@ public class PlayerMovement : MonoBehaviour
     {
         isHolding = false;
         isCooking = true;
+        _knife.GetComponent<MeshRenderer>().enabled = true;
         yield return new WaitForSeconds(time);
+        _knife.GetComponent<MeshRenderer>().enabled = false;
         isCooking = false;
         isSinking = false;
         isChopping = false;
-        _objectInHand = Instantiate(cookedIngredient, targetPickUp.transform);
+        _objectInHand = Instantiate(cookedIngredient, _plate.transform);
+        isHolding = true;
     }
     
     private void OnCollisionStay(Collision collision)
@@ -88,7 +91,7 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Box") && !isHolding && Input.GetKey(KeyCode.E))
         {
             var boxClass = collision.gameObject.GetComponent<BoxClass>();
-            _objectInHand = Instantiate(boxClass.pickUpObject, targetPickUp.transform);
+            _objectInHand = Instantiate(boxClass.pickUpObject, _plate.transform);
             isHoldingIngredient = true;
         }
         //adding objectInHand to plate
