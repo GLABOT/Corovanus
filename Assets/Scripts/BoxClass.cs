@@ -5,6 +5,4 @@ using UnityEngine;
 public class BoxClass : MonoBehaviour
 {
     public GameObject pickUpObject;
-
-
 }

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 167302525304139197}
   - component: {fileID: 167302525304139196}
   - component: {fileID: 167302525304139199}
+  - component: {fileID: -6062281774737780799}
   m_Layer: 0
   m_Name: Tomato
   m_TagString: PickUp
@@ -83,3 +84,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-6062281774737780799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 167302525304139193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfdee4a208b84296a3e071cea4ed2665, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ingredient: {fileID: 11400000, guid: 87152f7222d9f48459ae19707dd12734, type: 2}

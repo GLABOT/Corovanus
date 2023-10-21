@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Security.Cryptography;
 using ScriptableObjects.Ingredients;
 using UnityEngine;
 
@@ -8,13 +9,16 @@ namespace KitchenUnits.ConcreteUnits
     {
         public override void Cook(IngredientInfo ingredient)
         {
+            cookedIngredient = ingredient.slicedIngredient.prefab;
             StartCoroutine(WaitForSlice(ingredient));
         }
 
         private IEnumerator WaitForSlice(IngredientInfo ingredient)
         {
-            yield return new WaitForSeconds(_timeToCook);
-            Instantiate(ingredient.prefab, _ingredientInstantiateTransform);
+            var cookingIngredient = Instantiate(ingredient.prefab, _ingredientInstantiateTransform);
+            yield return new WaitForSeconds(timeToCook);
+            Destroy(cookingIngredient);
+            
         }
     }
 }

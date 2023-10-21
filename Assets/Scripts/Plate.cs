@@ -17,18 +17,18 @@ public class Plate : MonoBehaviour
         _allRecipesData = ScriptableDatabase.instance.recipes;
     }
 
-    private void AddIngredient(IngredientInfo ingredient)
+    public void AddIngredient(IngredientInfo ingredient)
     {
         if (_ingredients.Count<_maxIngredients)
             _ingredients.Add(ingredient);
     }
     
-    private void CleanPlate()
+    public void CleanPlate()
     {
         _ingredients.Clear();
     }
 
-    private RecipeItemInfo CreateItem() // метод который возвращает рецепт если можно создать еду из 
+    public RecipeItemInfo CreateItem() // метод который возвращает рецепт если можно создать еду из 
     {                                   // лежащих на тарелке ингредиентов, иначе возвращает null 
         for (int i = 0; i < _allRecipesData.Count; i++)
         {
