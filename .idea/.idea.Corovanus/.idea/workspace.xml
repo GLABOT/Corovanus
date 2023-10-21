@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c02ca8f8-34de-4f75-ae98-f3d79582ae0b" name="Changes" comment="add something something">
+    <list default="true" id="c02ca8f8-34de-4f75-ae98-f3d79582ae0b" name="Changes" comment="add bool fields for animations">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Corovanus/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Corovanus/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Grill.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Grill.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Grill.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Grill.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/DeepFryer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/DeepFryer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/Grill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/Grill.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/Sink.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/Sink.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/SlicingTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/ConcreteUnits/SlicingTable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/KitchenUnit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/KitchenUnits/KitchenUnit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Tomato.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Ingredients/Tomato.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TESTLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TESTLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/URPProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,10 +19,9 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="Cooking" />
       </map>
     </option>
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -54,6 +49,7 @@
     <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scenes/TESTLevel.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scenes/TESTLevel.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scenes/TESTLevel.unity" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scenes/TESTLevel.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/ScriptableObjects/Ingredients/IngredientInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/ScriptableObjects/Ingredients/Tomato.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ScriptableObjects/ScriptableDatabase.cs" root0="FORCE_HIGHLIGHTING" />
@@ -69,6 +65,7 @@
     <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/KitchenUnits/ConcreteUnits/Sink.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/KitchenUnits/ConcreteUnits/SlicingTable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/KitchenUnits/KitchenUnit.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/KitchenUnits/KitchenUnit.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Order.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OrderSystem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/Plate.cs" root0="SKIP_HIGHLIGHTING" />
@@ -77,11 +74,13 @@
     <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/Assets/Scripts/PlayerMovement.cs.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Raycast.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Timer/Timer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.6.3/InputSystem/Actions/InputAction.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/ProjectSettings/TagManager.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/Professional/RiderProjects/Corovanus/ProjectSettings/URPProjectSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2X1nGStt4IvrQjyoHjLi00IpBUQ" />
@@ -198,7 +197,23 @@
       <option name="project" value="LOCAL" />
       <updated>1697853862478</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="renaming">
+      <option name="closed" value="true" />
+      <created>1697854512229</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697854512229</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add bool fields for animations">
+      <option name="closed" value="true" />
+      <created>1697873228071</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697873228071</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +267,8 @@
     <MESSAGE value="add method for getting itemrecipe with ingredients on plate" />
     <MESSAGE value="add link to recipes database" />
     <MESSAGE value="add something something" />
-    <option name="LAST_COMMIT_MESSAGE" value="add something something" />
+    <MESSAGE value="renaming" />
+    <MESSAGE value="add bool fields for animations" />
+    <option name="LAST_COMMIT_MESSAGE" value="add bool fields for animations" />
   </component>
 </project>
