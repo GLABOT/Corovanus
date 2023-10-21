@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: -4747658811643536465}
   m_Layer: 0
   m_Name: Grill
-  m_TagString: Untagged
+  m_TagString: KitchenUnit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113,7 +113,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _ingredientInstantiateTransform: {fileID: 5028051557489243461}
   timeToCook: 3
-  cookedIngredient: {fileID: 0}
 --- !u!1 &5971964666608602405
 GameObject:
   m_ObjectHideFlags: 0

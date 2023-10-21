@@ -7398,14 +7398,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 5
-  targetPickUp: {fileID: 0}
+  _knife: {fileID: 8639981369996383589}
+  _tray: {fileID: 8913563967017015764}
+  _plate: {fileID: 6575099292110481660}
+  _holdingTransform: {fileID: 2630941691502967379}
   isCooking: 0
-  isSinking: 0
+  isWashing: 0
   isChopping: 0
   isWalking: 0
   isHolding: 0
+  isSaucing: 0
   isHoldingPlate: 0
-  isHoldingTray: 0
   isHoldingIngredient: 0
 --- !u!114 &919132147594460675
 MonoBehaviour:
